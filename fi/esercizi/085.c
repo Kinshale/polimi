@@ -13,24 +13,44 @@ visualizzi i valori privi di ripetizioni.
 
 #include <stdio.h>
 
-int unique(int, int[], int[]);
+int removeDuplicates(int *array, int n, int *uniqueArray)
+{
+    int i, j, m;
 
-int main(int argc, char** argv) {
-  int n, m, v[MAXN], w[MAXN];
-  n = 0;
-  do scanf("%d", &v[n]);
-  while (n < MAXN && v[n++] > 0);
-  if (n < MAXN && v[n] <= 0) n--;
-  m = unique(n, v, w);
-  for (n = 0; n < m; n++) printf("%d ", w[n]);
-  return 0;
-}
+    m = 0;
 
-int unique(int n, int v[], int w[]) {
-  int m, i, j;
-  for (i = 0; i < n; i++) {
-    for (j = 0; j < m && w[j] != v[i]; j++) {}
-    if (j == m) w[m++] = v[i];
-  }
-  return m;
+    for (i = 0; i < n; i++)
+    {
+        for (j = 0; j < m && array[i] != uniqueArray[j]; j++) {}
+
+        if (j == m) uniqueArray[m++] = array[i];
+    }
+
+    return m;
+};
+
+int main()
+{
+    int i, n, m, array[MAXLENGTH], uniqueArray[MAXLENGTH];
+
+    n = -1;
+
+    while (++n < MAXLENGTH)
+    {
+        scanf("%d", &array[n]);
+        if (array[n] <= 0) break;
+    }
+
+    // After the loop, n is the length of array;
+
+    m = removeDuplicates(array, n, uniqueArray); // returns the length of uniqueArray.
+
+    printf("Unique Array is: \n");
+
+    for (i = 0; i < m; i++)
+        printf("%d  ", uniqueArray[i]);
+
+    printf("\n");
+
+    return 0;
 }
