@@ -1,5 +1,4 @@
 # PoliMi
 
-Questa repository contiene i programmi svolti durante il corso di Ingegneria Informatica, presso il Politecnico di Milano.
-
+Questa repository contiene il materiale relativo al mio percorso di studi all'interno del Politecnico di Milano.
 
