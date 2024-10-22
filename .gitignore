@@ -1,14 +1,3 @@
-*.pdf
-*-blx.bib
-*.aux
-*.dvi
-*.fdb_latexmk
-*.fls
-*.log
-*.run.xml
-*.synctex.gz
-*.toc
-*.ilg
-*.out
-*.xdv
-__latexindent_temp.tex
+.IDS/templates
+
+
