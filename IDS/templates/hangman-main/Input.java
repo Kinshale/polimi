@@ -1,5 +1,0 @@
-interface Input {
-
-    String input();
-
-}
