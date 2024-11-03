@@ -1,0 +1,21 @@
+# Java Stuff
+*.class
+
+*.jar
+*.war
+*.ear
+
+/bin/
+/target/
+/out/
+/build/
+
+# Dependency directories
+/lib/
+
+# Logs and environment files
+*.log
+.env
+*.properties
+
+
