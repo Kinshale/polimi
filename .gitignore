@@ -1,3 +1,7 @@
+*.vs-code
+*.out
+*.bin 
+
 # Java Stuff
 *.class
 

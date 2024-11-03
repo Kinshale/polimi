@@ -2,6 +2,6 @@ This repository contains work I completed for my courses at **Politecnico di Mil
 
 | Course | Repo | Semester | Professor | Grade | CFU |
 |----------|----------|----------|----------|----------|----------|
-| Ingegneria del Software    | ids | 5 | - | - | 7 |
-| Row 2    | Data     | Data     | Data     | Data     | Data     |
-| Row 3    | Data     | Data     | Data     | Data     | Data     |
+| Ingegneria del Software | ids | 5 | - | - | 7 |
+| -    | -  | -  | -  | -  | -  |
+| -    | -  | -  | -  | -  | -  |
